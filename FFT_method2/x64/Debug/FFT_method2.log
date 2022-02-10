@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file FFT_GPU_method2.cu...
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Jinson\Desktop\FFT_method2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --expt-relaxed-constexpr -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\FFT_GPU_method2.cu.obj "C:\Users\Jinson\Desktop\FFT_method2\FFT_GPU_method2.cu" 
+  
+  C:\Users\Jinson\Desktop\FFT_method2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30037\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --expt-relaxed-constexpr -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Jinson\Desktop\FFT_method2\kernel.cu" 
+C:\Users\Jinson\Desktop\FFT_method2\kernel.cu(131): warning : variable "sample_size" was declared but never referenced
+  
+  FFT_GPU_method2.cu
+  kernel.cu
+  FFT_method2.vcxproj -> C:\Users\Jinson\Desktop\FFT_method2\x64\Debug\FFT_method2.exe
