@@ -12,4 +12,4 @@
 6. to handle complex in cuda functions, it's necessary to inlcude "--expt-relaxed-countpr" in cuda common lines to make complex arrays available to be modified.
 7. The solution is built, and what you have to do is open the solution file and press the "Local Windows Debugger" button.
 8. If there is a problem, please watch the demo video to make sure everything is on the right track.
-9. For further problems, please contact me (0612020 吳峻陞).
+9. For further problems, please contact me at jinsonwu@tamu.edu.
