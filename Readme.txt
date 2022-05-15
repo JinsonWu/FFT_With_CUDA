@@ -1,0 +1,15 @@
+******Announcement******
+*The cuda environment is established on Visual Studio in Windows10 because the default VB doesn't support the complex function.
+*nvcc in VB shows that the function elements are not incuded inside the compiler, thus I compile kernel.cu (main.cu) in VB to verify the correctness of FFT function.
+*As for cuda implementation, I use Visual Studio 2019 in Windows 10 to successfully run the project.
+
+*******Steps and File Explanation*********
+1. kernel.cu is the main.cu of either FFT_method1 or FFT_method2
+2. FFT_GPU_methodx.cu is the cuda file of each project, which includes the cuda-intended functions and definition of cuda elements.
+3. parameters.h includes callees using in kernel.cu and FFT_GPU_methodx.cu
+4. re.wav is a 25-second NCS audio file, which is the source audio arrays.
+5. result_methodx.dat stores the final output of complex arrays after FFT processing.
+6. to handle complex in cuda functions, it's necessary to inlcude "--expt-relaxed-countpr" in cuda common lines to make complex arrays available to be modified.
+7. The solution is built, and what you have to do is open the solution file and press the "Local Windows Debugger" button.
+8. If there is a problem, please watch the demo video to make sure everything is on the right track.
+9. For further problems, please contact me (0612020 吳峻陞).
